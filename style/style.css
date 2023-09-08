@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    color: aliceblue;
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgb(26, 26, 239, 0.7);
+    text-align: center;
+}
+#input{
+    border: 1px solid;
+    padding: 25px;
+    margin:20px;
+    display: flex;
+}
+#input div {
+    width: 50%;
+}
+#input input[type="number"]{
+    box-sizing: border-box;
+    outline: none;
+    height: 40px;
+    border:rgb(26, 26, 239, 0.7) 2px solid ;
+    width: 70%;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 0 10px;
+    font-size: 25px;transition: 1s;
+}
+#input input[type="button"]{
+    padding: 5px 20px; border-radius: 7px; background-color: rgb(26, 26, 239, 0.7); font-weight: bold;color: antiquewhite; margin: 10px;font-size: 18px;
+}
+
+#baris2{display: flex; align-items: center; justify-content: end; padding: 0 5%;}
+#baris1{
+    margin: 0px 20px;
+    color: rgb(26, 26, 239);
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+#input input[type="number"]:focus{
+    
+    border: 2px solid  rgb(21, 21, 197);;
+    background-color: rgb(240, 240, 240);
+    transition: 1s;
+}
+#input input[type="button"]:hover{
+    background-color: rgba(5, 5, 246, 0.8);
+    cursor: pointer;
+}
+#radiorumus{
+    margin: 10px 20px;
+}
+#radiorumus span{
+    font-size: 18px;
+    padding: 5px;
+    display: block;
+}
+#input .persegi  .persegiku {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+   padding-top:200px ;text-align: center;
+}
+#input .persegi a{
+    margin-left:5px ;
+}
+#input .persegi{
+    display: flex;align-items: center;font-size: 22px; 
+}
+#input .right{
+    display: flex; justify-content: space-around; align-items: center; font-size: 18px;
+} 
+@media only screen and (max-width: 600px) {
+  #input{
+    display: block;
+    padding: 5px;
+  }
+  #input div{
+    width: 100%;
+    margin: 20px 0;
+  }
+  #baris1{
+    margin: 10px;
+    display: block;
+  }
+  #input input[type="number"]{
+    margin: 0px;
+    width: 100%;
+  }#input .right{
+    display: block;;
+  }
+  #input .persegi{
+    display: flex; justify-content: center;
+  }
+  #input .display{
+    margin: 20px;
+  }
+  
+}
