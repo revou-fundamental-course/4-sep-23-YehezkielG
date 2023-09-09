@@ -4,6 +4,9 @@ inputNumber.addEventListener("input", function() {
     document.getElementById("sisi2").innerHTML = document.fform.inputfiled.value + " cm";
     
 });
+function formreset(){
+  document.getElementById("fform").innerHTML.reset();
+}
 function jumlahkan(){
     var action = document.fform.rumus.value;
     var sisi =  document.fform.inputfiled.value;
