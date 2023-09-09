@@ -49,7 +49,7 @@ nav {
     background-color: rgb(240, 240, 240);
     transition: 1s;
 }
-#input input[type="button"],[type="submit"]:hover{
+#input input[type="button"]:hover,[type="submit"]:hover{
     background-color: rgba(5, 5, 246, 0.8);
     cursor: pointer;
 }
